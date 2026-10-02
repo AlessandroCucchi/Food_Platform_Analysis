@@ -179,7 +179,7 @@ flowchart LR
 <img src="images/h_repo.svg" alt="Repository and How to Run" width="100%">
 
 ```
-food-platform-analysis/
+Food_Platform_Analysis/
 ├── data/
 │   └── Food_data_Final_Project.xlsx
 ├── notebooks/
@@ -191,8 +191,8 @@ food-platform-analysis/
 ```
 
 ```bash
-git clone https://github.com/AlessandroCucchi/food-platform-analysis.git
-cd food-platform-analysis
+git clone https://github.com/AlessandroCucchi/Food_Platform_Analysis.git
+cd Food_Platform_Analysis
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
