@@ -7,10 +7,7 @@
   <img src="https://img.shields.io/badge/pandas-16301f?logo=pandas&logoColor=f2a541" alt="pandas">
   <img src="https://img.shields.io/badge/scikit--learn-16301f?logo=scikitlearn&logoColor=f2a541" alt="scikit-learn">
   <img src="https://img.shields.io/badge/Jupyter-16301f?logo=jupyter&logoColor=f2a541" alt="Jupyter">
-  <img src="https://img.shields.io/badge/License-MIT-2f6b43" alt="MIT license">
 </p>
-
-# Food Platform Analysis: where does the growth come from, and who is about to leave?
 
 <p align="center">
   <a href="#project-background">Background</a> ·
@@ -18,17 +15,14 @@
   <a href="#executive-summary">Executive Summary</a> ·
   <a href="#insights-deep-dive">Insights</a> ·
   <a href="#recommendations">Recommendations</a> ·
-  <a href="#limitations">Limitations</a> ·
   <a href="#repository--how-to-run">How to Run</a>
 </p>
 
-> **In one sentence:** the platform's activity grew almost **six-fold in three years** while new sign-ups stayed **flat**, so growth comes from existing users cooking more, not from more users joining. **23% of users** used to be as active as the best ones but have gone quiet for about 200 days, which makes them the best group to win back.
+The platform's activity grew almost **six-fold in three years** while new sign-ups stayed **flat**, so growth comes from existing users cooking more, not from more users joining. **23% of users** used to be as active as the best ones but have gone quiet for about 200 days, which makes them the best group to win back.
 
 <br>
 
 <img src="images/h_background.svg" alt="Project Background" width="100%">
-
-## Project Background
 
 The dataset records cooking sessions on a recipe platform: which user cooked which recipe, when, on which device, and how many stars (1-5) they gave it, along with details about the recipe, the chef and the user's sign-up date. It covers **999 sessions from 242 users** in three countries (Italy, the UK and France), with sessions from January 2021 to December 2023 and sign-ups from 2020 to 2022. There are no missing values or duplicate rows.
 
@@ -43,15 +37,11 @@ The goal is to give the team what it needs to plan next year's strategy. The ana
 
 <img src="images/h_metrics.svg" alt="Key Metrics" width="100%">
 
-## Key Metrics
-
 <img src="images/kpi_cards.svg" alt="Key metrics: sessions grew 5.8 times, sign-ups stayed flat, 23 percent of users at risk, average rating up 0.17 stars" width="100%">
 
 <br>
 
 <img src="images/h_summary.svg" alt="Executive Summary" width="100%">
-
-## Executive Summary
 
 | Question | Short answer |
 |---|---|
@@ -66,14 +56,9 @@ The goal is to give the team what it needs to plan next year's strategy. The ana
 - **Changing the catalogue is unlikely to be the main lever.** Ratings hold steady across categories, devices and difficulty levels.
 - **The most valuable group to act on is the "at risk" segment:** users who cooked as much as the best users but have been absent for about 200 days.
 
-> [!NOTE]
-> The dataset has no revenue, marketing or churn-reason fields. The conclusions are descriptive and show **where to look**, not what causes what.
-
 <br>
 
 <img src="images/h_insights.svg" alt="Insights Deep-Dive" width="100%">
-
-## Insights Deep-Dive
 
 ### 1. Which recipes work best?
 
@@ -174,8 +159,6 @@ flowchart LR
 
 <img src="images/h_reco.svg" alt="Recommendations" width="100%">
 
-## Recommendations
-
 1. **Win back the "at risk" segment first.** 56 users who were as active as the best ones and have been silent for about 200 days. This is a better bet than chasing dormant users who left almost a year ago.
 2. **Find out what improved onboarding.** Newer cohorts become active much faster than older ones. Understanding why (with product data that is not in this dataset) and applying it to new users is the most promising growth lever.
 3. **Look at acquisition and onboarding before changing the catalogue.** Content shows no clear link to ratings or activity, while sign-ups have been flat. This is a hypothesis to test, not a proven effect.
@@ -184,8 +167,6 @@ flowchart LR
 <br>
 
 <img src="images/h_limits.svg" alt="Limitations" width="100%">
-
-## Limitations
 
 - **Descriptive, not causal.** No acquisition, spend or churn-reason data, so the findings point to where to look, not to why.
 - **Small samples.** About 4 sessions per user on average; the best recipes were cooked only 4-7 times, and chef comparisons rest on 33-59 sessions each.
@@ -196,8 +177,6 @@ flowchart LR
 <br>
 
 <img src="images/h_repo.svg" alt="Repository and How to Run" width="100%">
-
-## Repository & How to Run
 
 ```
 food-platform-analysis/
@@ -212,7 +191,7 @@ food-platform-analysis/
 ```
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/food-platform-analysis.git
+git clone https://github.com/AlessandroCucchi/food-platform-analysis.git
 cd food-platform-analysis
 
 python -m venv .venv
@@ -222,11 +201,9 @@ pip install -r requirements.txt
 jupyter notebook notebooks/Food_Platform_Analysis.ipynb
 ```
 
-The notebook runs in a few seconds.
+## Author
 
-## About the Author
+**Alessandro Cucchi**
 
-**Alessandro Cucchi**, data analyst. I turn raw data into clear answers and explain them to the people who decide.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-16301f?logo=linkedin&logoColor=f2a541)](https://www.linkedin.com/in/YOUR-LINKEDIN/)
-[![GitHub](https://img.shields.io/badge/GitHub-16301f?logo=github&logoColor=f2a541)](https://github.com/YOUR-USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-16301f?logo=linkedin&logoColor=f2a541)](https://www.linkedin.com/in/AlessandroCucchi-/)
+[![GitHub](https://img.shields.io/badge/GitHub-16301f?logo=github&logoColor=f2a541)](https://github.com/AlessandroCucchi)
